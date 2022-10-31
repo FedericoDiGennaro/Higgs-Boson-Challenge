@@ -14,7 +14,10 @@ With an accuracy of 0.836 and an F1-Score of 0.749 we placed in the top 10% of t
 ## Environment:
 We worked with `python3.8.5`. The library used to compute our ML model is `numpy` and the library used for visualization is `matplotlib`.
 
-## Description of notebooks:
+## Data
+For the code to work properly, the datasets must be placed in a folder called `data` that must be in the same working directory as the notebooks in this repo. The `data` folder must contain the datasets named `train.csv` and `test.csv`.
+
+## Description of notebooks
 Here you can find what each file in the repo does. The order in which they are described follows the pipeline we used to obtain our results.
 - `helpers.py`: implementation of  all the "support" functions used in others .py files.
 - `gradients.py`: implementation of all the gradients used to train 6 methods.
