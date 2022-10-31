@@ -34,7 +34,7 @@ def mean_squared_error_gd(y, tx, initial_w, max_iters, gamma):
     Args:
         y: shape=(N, )
         tx: shape=(N,D)
-        initial_w: shape=(2, ). The initial guess (or the initialization) for the model parameters
+        initial_w: shape=(D, ). The initial guess (or the initialization) for the model parameters
         max_iters: a scalar denoting the total number of iterations of GD
         gamma: a scalar denoting the stepsize
     Returns:
@@ -113,7 +113,7 @@ def logistic_regression(y, tx, initial_w, max_iters, gamma):
     Args:
         y: shape=(N, )
         tx: shape=(N,D)
-        initial_w: shape=(2, ). The initial guess (or the initialization) for the model parameters
+        initial_w: shape=(D, ). The initial guess (or the initialization) for the model parameters
         max_iters: a scalar denoting the total number of iterations of GD
         gamma: a scalar denoting the stepsize
     Returns:
@@ -134,7 +134,7 @@ def reg_logistic_regression(y, tx, lambda_, initial_w, max_iters, gamma):
     Args:
         y: shape=(N, )
         tx: shape=(N,D)
-        initial_w: shape=(2, ). The initial guess (or the initialization) for the model parameters
+        initial_w: shape=(D, ). The initial guess (or the initialization) for the model parameters
         max_iters: a scalar denoting the total number of iterations of GD
         gamma: a scalar denoting the stepsize
     Returns:
