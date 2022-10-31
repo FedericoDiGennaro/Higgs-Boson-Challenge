@@ -7,7 +7,7 @@ Our team (named `FGRxML`) is composed by:
 - D'Angeli Gabriele: [@gabrieledangeli](https://github.com/gabrieledangeli)  
 - Di Gennaro Federico: [@FedericoDiGenanro](https://github.com/FedericoDiGennaro)   
 
-With an accuracy of 0.836 and an F1-Score of 0.748 we placed in the top 10% of the teams (>200 teams).
+With an accuracy of 0.836 and an F1-Score of 0.749 we placed in the top 10% of the teams (>200 teams).
 
 # Project pipeline
 
