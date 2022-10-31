@@ -25,7 +25,7 @@ def compute_stoch_gradient(y, tx, w):
     Args:
         y: shape=(N, )
         tx: shape=(N,D)
-        w: shape=(2, ). The vector of model parameters.
+        w: shape=(D, ). The vector of model parameters.
     Returns:
         An array of shape (D, ) (same shape as w), containing the stochastic gradient of the loss at w.
     """
