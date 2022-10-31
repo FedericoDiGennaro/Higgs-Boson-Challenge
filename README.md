@@ -23,7 +23,7 @@ Here you can find what each file in the repo does. The order in which they are d
 - `gradients.py`: implementation of all the gradients used to train 6 methods.
 - `costs.py`:  the cost functions used in the implementations of the 6 methods.
 - `implementations.py`: actual implementation of all 6 methods.
-- `preprocessing.py`: implementation of functions used to process the data. The majority of them were used in `features_engineering.ipynb`
+- `preprocessing.py`: implementation of functions used to process the data. The majority of them were used in `features_engineering.py`
 - `feature_engineering.py`: python file for feature engineering (feature selection, feature transformation,...).
 - `crossvalidation.py`: implemetation of functions used to train the best hyperparameters for our model (ridge regression).
 - `choosing_hyperparameters.ipynb`: notebook to select the best hyperparameters for our model (ridge regression).
